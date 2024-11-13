@@ -5,7 +5,7 @@
 
 class Date {
   public:
-    Date(int year, int monnth, int day);
+    Date(int year, int month, int day);
     void toNextDate();
     std::string toString();
   private: 
