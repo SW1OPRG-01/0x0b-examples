@@ -7,5 +7,5 @@ void Date::toNextDate() {
 }
 
 std::string Date::toString() {
-  return "";
+  return std::to_string(year) + "-" + std::to_string(month) + "-" + std::to_string(day);
 }
