@@ -5,8 +5,9 @@
 #include "Date.h"
 
 class TestDate {
-  void toString(Date date, std::string expected);
-  void advance(Date date, std::string expected);
+  public:
+    void toString(Date date, std::string expected);
+    void advance(Date date, std::string expected);
 };
 
 #endif
