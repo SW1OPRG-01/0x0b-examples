@@ -21,6 +21,16 @@
         "MIMode": "lldb"
       },
       "preLaunchTask": "build",
-    }
-  ]
+    }, {
+      "name": "Debug",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${env:SELECTED_FILE}",
+      "cwd": "${workspaceFolder}",
+      "osx": {
+        "MIMode": "lldb"
+      },
+      "preLaunchTask": "Select File to Run",
+    }, 
+  ],
 }

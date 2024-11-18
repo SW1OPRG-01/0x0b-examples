@@ -11,5 +11,5 @@ std::string Date::toString() {
 }
 
 std::string Date::pad(int number) { 
-  
+ return std::to_string(number); 
 }

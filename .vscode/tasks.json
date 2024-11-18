@@ -16,6 +16,14 @@
       "problemMatcher": [
         "$gcc"
       ],
-    },
+    }, {
+      "label": "Select File to Run",
+      "type": "shell",
+      "command": "python3 list_files.py > selected_file_env.txt",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always"
+      }
+    }
   ]
 }
