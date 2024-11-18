@@ -11,5 +11,8 @@ std::string Date::toString() {
 }
 
 std::string Date::pad(int number) { 
-  
+  if (number <= 9) {
+    return std::to_string(number);
+  }
+  return "0" + std::to_string(number); 
 }
