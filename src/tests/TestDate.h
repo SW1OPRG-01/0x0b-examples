@@ -2,7 +2,7 @@
 #define TEST_DATE_H
 
 #include <string>
-#include "Date.h"
+#include "../Date.h"
 
 class TestDate {
   public:

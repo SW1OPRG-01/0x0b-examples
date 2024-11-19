@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include "Date.h"
-#include "TestDate.h"
+#include "tests/TestDate.h"
 
 int main() {
   std::vector<Date> dates = {
@@ -14,7 +14,7 @@ int main() {
   };
 
   TestDate test = TestDate();
-  for(auto date = dates.begin(); date != dates.end(); date++) {
+  for(auto date = dates.begin(); date != dates.end(); ++date) {
     test.advance(*date, "");
   }
 
