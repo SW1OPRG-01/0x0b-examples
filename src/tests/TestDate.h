@@ -4,6 +4,11 @@
 #include <string>
 #include "../Date.h"
 
+struct TestInput {
+  Date date;
+  std::string expected;
+};
+
 class TestDate {
   public:
     void toString(Date date, std::string expected);

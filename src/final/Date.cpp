@@ -3,7 +3,7 @@
 using namespace std;
 
 // Initialize the date with the date d, month m and year y
-Date::Date(int d, int m, int y): day(d), month(m), year(y) {
+Date::Date(int y, int m, int d): day(d), month(m), year(y) {
 }
 
 // Advance the date to the next date
